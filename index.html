@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Wonderlands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div>
+        <div class="logo-container">
+            <img src="css/logo.svg" alt="logo" class="logo">
+        </div>
+        <nav id="main-nav">
+            <a href="index.html" class="button-nav">Главная</a>
+            <a href="menu.html" class="button-nav">Наше меню</a>
+            <a href="blog.html" class="button-nav">Наш блог</a>
+            <a href="contact.html" class="button-nav">Связь с нами</a>
+        </nav>
+    </div>
+
+    <section>
+        <div>
+            <h4>Здесь вы можете насытиться любимыми блюдами</h4>
+            <h2>Русский ресторан</h2>
+            <p>Жизнь слишком коротка, чтобы есть невкусную еду. Уютное место для ваших завтраков, обедов и ужинов. Авторские рецепты.</p>
+            <a href="#" data-id="book-table">Заказать прямо сейчас</a>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <img src="img/cook_01.jpg" alt="">
+            <div>
+                <h4>Мы готовим изыски</h4>
+                <div>
+                    <span>Телефон для связи:</span>
+                    <h6>+7 900 418 96 22</h6>
+                </div>
+                <span>ИЛИ</span>
+                <a href="#" data-id="book-table">Закажите сейчас</a>
+            </div>
+            <img src="img/cook_02.jpg" alt="">
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section>
+        <div>
+            <a href="menu.html">
+                <img src="img/cook_breakfast.png" alt="Breakfast">
+                <h4>Завтрак</h4>
+            </a>
+            <a href="menu.html">
+                <img src="img/cook_lunch.png" alt="Lunch">
+                <h4>Обед</h4>
+            </a>
+            <a href="menu.html">
+                <img src="img/cook_dinner.png" alt="Dinner">
+                <h4>Ужин</h4>
+            </a>
+            <a href="menu.html">
+                <img src="img/cook_breakfast.png" alt="Breakfast">
+                <h4>Завтрак</h4>
+            </a>
+            <a href="menu.html">
+                <img src="img/cook_lunch.png" alt="Lunch">
+                <h4>Обед</h4>
+            </a>
+            <a href="menu.html">
+                <img src="img/cook_dessert.png" alt="Desserts">
+                <h4>Дессерты</h4>
+            </a>
+        </div>
+    </section>
+    
+    <hr class="separator">
+
+    <section id="book-table">
+        <div>
+            <h2>Забронируйте столик здесь</h2>
+            <img src="img/book_left_image.jpg" alt="">
+            <h4>Бронь</h4>
+            <form id="form-submit" action="" method="get">
+                <select required name='day'>
+                    <option value="">Выберите день</option>
+                    <option value="Monday">Понедельник</option>
+                    <option value="Tuesday">Вторник</option>
+                    <option value="Wednesday">Среда</option>
+                    <option value="Thursday">Четверг</option>
+                    <option value="Friday">Пятница</option>
+                    <option value="Saturday">Суббота</option>
+                    <option value="Sunday">Воскресенье</option>
+                </select>
+                <select required name='hour'>
+                    <option value="">Выберите время</option>
+                    <option value="10-00">10:00</option>
+                    <option value="12-00">12:00</option>
+                    <option value="14-00">14:00</option>
+                    <option value="16-00">16:00</option>
+                    <option value="18-00">18:00</option>
+                    <option value="20-00">20:00</option>
+                    <option value="22-00">22:00</option>
+                </select>
+                <input name="name" type="name" id="name" placeholder="ФИО" required="">
+                <input name="phone" type="phone" id="phone" placeholder="Телефон" required="">
+                <select required class="person" name='persons'>
+                    <option value="">Количество человек?</option>
+                    <option value="1-Person">1 человек</option>
+                    <option value="2-Persons">2 человека</option>
+                    <option value="3-Persons">3 человека</option>
+                    <option value="4-Persons">4 человека</option>
+                    <option value="5-Persons">5 человек</option>
+                    <option value="6-Persons">6 человек</option>
+                </select>
+                <button type="submit" id="form-submit">Забронировать</button>
+            </form>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section>
+        <div>
+            <h2>Подпишитесь на наши уведомления!</h2>
+            <form id="contact" action="" method="get">
+                <input name="email" type="text" id="email" placeholder="Введите вашу почту здесь..." required="">
+                <button type="submit" id="form-submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Yato</p>
+        <ul>
+            <li><a href="https://dvgups.ru"><i></i></a></li>
+            <li><a href="https://dvgups.ru"><i></i></a></li>
+        </ul>
+        <p>Design: Yato</p>
+    </footer>
+    </body>
+    </html>    
